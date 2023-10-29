@@ -1,9 +1,9 @@
-import "./global.css";
+import "./global.css"
 
 export const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <h1 className="text-3xl font-bold">Collect-a-mon</h1>
+    </div>
   )
-};
+}
