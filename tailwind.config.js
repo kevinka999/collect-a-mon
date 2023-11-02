@@ -3,12 +3,18 @@ import { theme } from "./theme"
 /** @type {import('tailwindcss').Config} */
 export default {
   theme: {
-    colors: {
-      background: "#363062",
-      tertiary: "#4D4C7D",
-      secondary: "#F5F5F5",
-      primary: "#F99417",
-      black: "#1B1B1B",
+    extend: {
+      colors: {
+        text: "#100f0e",
+        background: "#fafafa",
+        primary: "#f99315",
+        secondary: "#c5d4e2",
+        accent: "#3e38b2",
+        textShade: "#7e7e7d",
+        primaryShade: "#fbe5d2",
+        secondaryShade: "#f0f2f5",
+        accentShade: "#837fc9",
+      },
     },
   },
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
