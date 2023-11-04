@@ -1,3 +1,5 @@
 export * from "./Card"
 export * from "./TypeBanner"
 export * from "./Move"
+export * from "./Spinner"
+export * from "./Button"

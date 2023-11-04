@@ -16,6 +16,13 @@
   --accent-shade: #837fc9;
 }
 
+html,
+body,
+body > #root {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-color: var(--color-background);
   color: var(--color-secondary);
